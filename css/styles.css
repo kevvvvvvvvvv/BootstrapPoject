@@ -11,6 +11,168 @@
     justify-content: space-between;
 }
 
+/*general section*/
+
+*{
+    font-family: "Ubuntu", sans-serif;
+    margin:0px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+/*Hero section*/
+
+.hero{
+    background: #f1f1f1;
+    min-height: 450px;
+    text-align: center;
+}
+
+.principal-hero{
+    padding: 2rem;
+}
+
+.principal-hero h2{
+    font-size: 1.3rem;
+}
+
+.lower-hero-image{
+
+}
+
+/*About me*/
+
+.column i{
+    font-size: 3rem;
+    border-radius: 45%;
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+.experience{
+    padding: 60px
+}
+
+.dark-section{
+    color: white;
+    background: rgb(19, 18, 18);
+}
+
+.about-me{
+    height: 500px;
+    padding: 50px;
+}
+
+.about-me .conte{
+    max-width: 600px;
+    text-align: center;
+}
+
+/*Experience*/
+.white-section{
+    color: black;
+    background: white;
+}
+
+
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.column{
+    padding: 20px;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: all 0.2s ease-in;
+
+}
+  
+.column:hover{
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.column:hover i{
+    background-color: black;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+.badges-container{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+.badge{
+    margin:5px;
+}
+
+/* Recent projects */
+
+.recent-projects{
+    padding: 40px;
+}
+
+.description-section{
+    font-size: 1.2rem;
+}
+
+.recent-projects img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.container-projects{
+    padding-top: 40px;
+    margin-bottom: 40px
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.project:hover img{
+    opacity: 0.2;
+}
+
+.project:hover .overlay{
+    opacity: 1;
+}
+
+.project{
+    position: relative;
+}
+
+.icons-container i{
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+}
+
 /*Responsive*/
 
 @media screen and (max-width: 767px){
@@ -18,3 +180,12 @@
         display: none;
     }
 }
+
+@media screen and (width:700px){
+    .lower-hero-image{
+        max-width: 600px;
+    }
+}
+
+
+

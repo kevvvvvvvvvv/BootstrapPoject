@@ -9,8 +9,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">        
         <!--CSS-->
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
         <!--TITLE-->
         <title>Kevin | WEB Front-End</title>
         <!--ICON-->
@@ -40,14 +45,140 @@
                 </ul>
               </div>
             </div>
-          </nav>
+        </nav>
+        <!--Hero section-->
         <main>
+          <section class="hero align-items-stretch">
+            <div class="principal-hero d-flex flex-column justify-content-center ">
+              <i class="bi bi-people-fill"></i>
+              <h1>Hi, I am Kevin</h1>
+              <h2>I develop web sites and programs using Java and Python</h2>
+            </div>
+            <div class="lower-hero">
+              <img class="lower-hero-image img-fluid"  src="images/principal-image.png" alt="A person using a computer">
+            </div>
+          </section>
+          <!--About Me-->
+          <section class="about-me dark-section">
+            <div class="conte">
+              <h2 class="title-section">Information about me</h2>
+              <p class="text-section">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper 
+                sagittis sodales. Fusce id nisl in lorem semper ultrices nec nec lorem. 
+                Mauris hendrerit nisl et posuere maximus. Vivamus pellentesque lacinia 
+                lacus, ac pulvinar ante sollicitudin a. Nulla facilisi. Quisque varius 
+                egestas velit, imperdiet hendrerit tortor gravida id. Fusce sed tempus leo.</p>
+            </div>
+          </section>
+          <!--Experience section-->
+          <section class="experience white-section">
+            <div class="container text-center">
+              <div class="row">
+                <!--WEB develop-->
+                <div class=" column col-12 col-md-4 ">
+                  <i class="bi bi-laptop"></i>
+                  <h2 class="experience-title">WEB develop</h2>
+                  <p class="experience-text">Maecenas eu nunc sed quam molestie posuere. Pellentesque vel sapien et 
+                    massa bibendum dapibus in ut quam. Nunc ut nulla nec enim posuere egestas 
+                    quis ac arcu. Donec feugiat eget diam sed gravida. Maecenas vitae orci nec 
+                    diam hendrerit dictum ac et turpis. Etiam tincidunt lectus tellus.</p>
+                    <div class="badges-container">
+                      <span class="badge text-bg-primary">HTML</span>
+                      <span class="badge text-bg-primary">JavaScript</span>
+                      <span class="badge text-bg-primary">CSS</span>
+                    </div>
+                </div>
+                <!--Articles-->
+                <div class="column col-12 col-md-4">
+                  <i class="bi bi-textarea-t"></i>
+                  <h2 class="experience-title">Articles</h2>
+                  <p class="experience-text">Phasellus et libero justo. Morbi consectetur, nisi eget consectetur eleifend, 
+                    eros ex pretium odio, at faucibus nisi est nec leo. Curabitur porttitor lectus 
+                    non purus molestie auctor. Curabitur ultrices sem vel scelerisque sagittis. </p>
+                  <div class="badges-container">
+                    <span class="badge text-bg-primary">Write</span>
+                    <span class="badge text-bg-primary">Edit</span>
+                    <span class="badge text-bg-primary">Blogs</span>
+                  </div>
+                </div>
+                <!--Studies-->
+                <div class="column col-12 col-md-4">
+                  <i class="bi bi-journal"></i>
+                  <h2 class="experience-title">Studies</h2>
+                  <p class="experience-text">Duis iaculis enim nec sapien tempor dignissim. Proin lobortis, eros sed 
+                    hendrerit hendrerit, dui mi scelerisque lectus, eget ultrices mi ligula 
+                    non tortor. In dignissim ante risus, non ultricies erat sagittis at.</p>
+                  <div class="badges-container">
+                    <span class="badge text-bg-primary">Java</span>
+                    <span class="badge text-bg-primary">Python</span>
+                    <span class="badge text-bg-primary">C</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
+          <!--Projects-->
+          <section class="recent-projects white-section d-flex flex-column">
+            <h2 class="title-section">My projects made recently</h2>
+            <p class="description-section">These are some of my projects that I have created </p>
+            <!--Project galery-->
+            <div class="container text-center container-projects">
+              <div class="row align-items-center justify-content-center">
+                <!-- project 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="project">
+                    <img src="images/project-1.png" alt="Proyecto 1">
+                    <div class="overlay">
+                      <h3>Project 1</h3>
+                      <div class="icons-container">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- project 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="project">
+                    <img src="images/project-2.png" alt="Proyecto 2">
+                    <div class="overlay">
+                      <h3>Project 2</h3>
+                      <div class="icons-container">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- project 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="project">
+                    <img src="images/project-3.png" alt="Proyecto 3">
+                    <div class="overlay">
+                      <h3>Project 3</h3>
+                      <div class="icons-container">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Articles -->
+           <section class="articles justify-content-start">
+            <h2>Articles</h2>
+            <div class="card">
+              <div class="card-header">
+                Most recent
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+            </div>
+
+           </section>
         </main>
-        <footer>
-
-
-        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
     </body>
 </html>
